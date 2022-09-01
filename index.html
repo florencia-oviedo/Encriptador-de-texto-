@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <meta charset = "UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Encriptador</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+           <img src="imagenes/Logo.png" alt="Logo de Alura con la letra inicial a">
+           <h1> Encriptador de texto</h1>
+        </header>
+        <main> 
+            <section class="bloqueTexto">
+                <h5>Sólo letras y en minúscula</h5> 
+                <textarea class="input-texto" cols="50" rows="10" placeholder="Ingrese el texto aquí"></textarea>
+                <div class="botones">
+                    <button class="encriptar" onclick="botonEncriptar()">Encriptar</button>
+                    <button class="desencriptar" onclick="botonDesencriptar()">Desencriptar</button>
+                </div>
+            </section>
+            <section class="bloqueMensaje"> 
+                <textarea class="mensaje" cols="10" rows="30"></textarea>
+                <button class="copiar" onclick="copiar()">Copiar</button>
+            </section>
+     
+        </main>
+        <script src="encriptador.js"></script>
+        
+        <footer>
+                <p class="autor"> Hecho por Florencia Micaela Oviedo - 2022</p>
+                <a href="https://www.linkedin.com/in/florencia-oviedo/" class="linkedin">Linkedin</a>
+                <br>
+                <a href="https://github.com/florencia-oviedo" class="github">Github</a>
+        </footer>
+
+    </body>
+
+</html>

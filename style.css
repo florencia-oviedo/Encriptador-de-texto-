@@ -1,0 +1,70 @@
+*{
+    font-family: 'Space Mono', monospace;
+}
+h1{
+    text-align: center;
+    color: rgb(219, 67, 92)
+}
+body{
+    background-color: rgb(216, 181, 187);
+}
+main{
+    display: flex;
+    margin-left: 500px;
+    margin-bottom:50px;
+}
+.bloqueTexto{
+    padding: 20px;
+    margin: 0px 20px 5px 5px;
+}
+
+.encriptar{
+    width: 40%;
+    height: 60px;
+    text-align: center;
+    background-image: url("imagenes/candadoCerrado.png") ;
+    background-repeat: no-repeat;
+    background-position: right;
+    margin: 5px 15px 0px 10px;
+    
+}
+.desencriptar{
+    width: 40%;
+    height: 60px;
+    text-align: left ;
+    background-image: url("imagenes/candadoAbierto.png") ;
+    background-repeat: no-repeat;
+    background-position: right;
+    margin: 5px 15px 0px 20px;
+    
+}
+.bloqueMensaje{
+    width: 30%;
+    height: 30%;
+    padding: 20px;
+    margin: 5px 20px 5px 5px;
+    display: grid;
+}
+
+.copiar{
+    padding: 10px;
+    width: 30%;
+    margin: 20px 0px 20px 140px
+    
+}
+
+ 
+footer{
+    text-align: center;
+    padding: 40px;
+}
+.linkedin{
+    color: black;
+    text-decoration: none;
+
+}
+.github{
+    color: black;
+    text-decoration: none;
+    
+}
